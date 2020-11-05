@@ -51,3 +51,6 @@ def AllBall(r):
     v = 1/6*3.14*d**3
     #Объем
     return d, p, s, v
+def sigmoid(x):
+    e = 2.7182818284
+    return 1/(1+e**(-x))
