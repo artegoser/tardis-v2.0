@@ -41,5 +41,3 @@ def VCube (x):
 def ATri(b, h):
     #площадь треугольника
     return 0.5*b*h
-print(fact(10)) 
-print(VCube(10)) 
