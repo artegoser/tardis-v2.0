@@ -1,5 +1,5 @@
 import random
-def xor_cipher( str, key ):
+def xor_cipher(str, key):
     encript_str = ""
     for letter in str:
         encript_str += chr(ord(letter)^key)
@@ -45,4 +45,10 @@ def genpass(length):
     for i in range(length):
         password += random.choice(chars)
     return password
-    
+
+def genAnswer(lang="eng"):
+    if lang == "eng":
+        answers = ["yes","no", "probably"]
+    else:
+        answers = ["да","нет", "наверное"]
+    return random.choice()
